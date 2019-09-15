@@ -5,8 +5,8 @@ cd C:\code\dlib\build\android
 rem ANDROID_SDK must be something like 'C:\Users\kbertok\AppData\Local\Android\Sdk'
 echo "- ANDROID_SDK: %ANDROID_SDK%"
 
-rem can be also: 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
-set abi="armeabi-v7a"
+rem can be also: 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+set abi="arm64-v8a"
 
 set build_dir="builds/abi-%abi%"
 set install_dir="CMAKE_INSTALL_PREFIX=install/abi-%abi%"
